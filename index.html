@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jose Luis Magaña Boyso - Ingeniero en Sistemas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(to right, #1f1f1f, #343a40);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #212529;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .skill, .project {
+      background-color: white;
+      border: 1px solid #dee2e6;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+    }
+
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jose Luis Magaña Boyso</h1>
+  <p>Ingeniero en Sistemas de Yuriria, Guanajuato</p>
+</header>
+
+<section id="sobre-mi">
+  <h2>Sobre mí</h2>
+  <p>Soy un ingeniero en sistemas con pasión por el desarrollo de soluciones digitales. Me especializo en automatización, desarrollo web, administración de sistemas y bases de datos. Siempre busco mejorar procesos mediante la tecnología.</p>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades Técnicas</h2>
+  <div class="skills">
+    <div class="skill">HTML / CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">Python</div>
+    <div class="skill">Bases de Datos (MySQL / SQL Server)</div>
+    <div class="skill">Redes y Seguridad</div>
+    <div class="skill">Linux</div>
+    <div class="skill">Git y GitHub</div>
+  </div>
+</section>
+
+<section id="proyectos">
+  <h2>Proyectos Destacados</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Sistema de Inventario</h3>
+      <p>Aplicación web para gestionar productos, entradas y salidas, con reportes en tiempo real.</p>
+    </div>
+    <div class="project">
+      <h3>Rediseño Web Institucional</h3>
+      <p>Proyecto enfocado en accesibilidad, velocidad y diseño responsivo para un sitio corporativo.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <div class="contact-info">
+    <p>📧 Correo: <a href="mailto:joseluismaganaboyso@gmail.com">joseluismaganaboyso@gmail.com</a></p>
+    <p>📱 Teléfono: <a href="tel:+524451100290">445 110 0290</a></p>
+    <p>📍 Ciudad: Yuriria, Guanajuato</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Jose Luis Magaña Boyso. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
